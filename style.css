@@ -10,6 +10,14 @@
     height: 80px;
     border-radius: 50px;
 }
+.Author{
+    font-size: 20px;
+    color: darkblue;
+    font-family: 'open sans condensed' , sans-serif ;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
 section{
     padding: 50px 0;
 }
