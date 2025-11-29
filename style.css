@@ -1,0 +1,238 @@
+@import url( https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+section{
+    padding: 50px 0;
+}
+.main-btn{
+    display: inline-block;
+    border-radius: 26px;
+    transition: 0.2s;
+    padding: 10px 37px;
+    background-color: #f77949;
+    color: #fff;
+    margin-top: 13px;
+    font-weight: 700;
+    font-family: 'open sans condensed' , sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 0 0 1px rgb(0 0 0 0%);
+}
+.main-btn:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+h1{
+    font-size: 70px;
+    font-family: 'open sans condensed' , sans-serif ;
+    font-weight: 700;
+    padding-top: 70px;
+    color: darkblue;
+    margin-bottom: 16px;
+}
+h2{
+    font-size: 45px;
+    line-height: 64px;
+    font-family: 'open sans condensed' , sans-serif ;
+    font-weight: 700;
+    color: darkblue;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+h3{
+    font-size: 30px;
+    font-family: 'open sans condensed' , sans-serif ;
+    font-weight: 700;
+    color: darkblue;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+p{
+    color: grey;
+    font-size: 15px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,
+button{
+    border-color: #f77949 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.header-wrapper .navbar{
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.header-wrapper .navbar-toggler{
+    border: 0;
+}
+.header-wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header-wrapper .nav-item{
+    margin:0 10px;
+}
+.header-wrapper .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 700;
+    color: darkblue;
+    font-family:  'open sans condensed' , sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.header-wrapper .nav-item .nav-link.active{
+    color: #f77949;
+}
+.image-fluid{
+    border-radius: 60px;
+    padding-top: 45px;
+    width: 500px;
+    height: 500px;
+
+}
+.header-scrolled{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46 ,0.0s);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46 ,0.0s);
+}
+.banner-wrapper{
+    padding-top: 100px;
+}
+
+/*-------------------Services section  ------------------------*/
+.services-wrapper h3 span{
+    color: #f77949;
+}
+.services-wrapper .service_phone{
+    max-width: 70%;
+}
+@media (max-width:1400px){
+.services-wrapper .service_phone{
+    max-width: 80%;
+    }
+}
+@media (max-width:1230px){
+.services-wrapper .service_phone{
+    max-width: 100%;
+    }
+}
+
+/*---------------- Blog Section ---------------------------*/
+.blog-wrapper .newsletter{
+    width: 100%;
+}
+.blog-wrapper .newsletter_wrapper{
+    background-color: darkblue;
+}
+.blog-wrapper .newsletter{
+    width: 50%;
+    margin: auto;
+}
+.blog-wrapper .form-control{
+    background-color: darkblue;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 26px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 32px;
+}
+.blog-wrapper input::placeholder{
+    color: white;
+}
+.blog-wrapper a{
+    color: blue;
+    text-decoration: none;
+}
+.blog-wrapper .date,
+.blog-wrapper .card a:hover{
+    color: #f77949;
+}
+
+.contact-wrapper input,
+.contact-wrapper textarea{
+    background-color: #fff;
+    border-color: grey;
+    border-radius: 15px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 32px 15px 21px;
+}
+
+/*---------------- footer section -----------------------------*/
+.footer-wrapper{
+    background-color: darkblue;
+}
+.footer-wrapper a{
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.footer-wrapper a:hover{
+    color: #f77949;
+}
+
+/*----------------- Custom css -------------------------*/
+section{
+    padding: 20px 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+h3{
+    font-size: 20px;
+}
+
+/*------------------- Navbar  ----------------------------------*/
+.header-scrolled{
+    height: auto;
+}
+.header-wrapper .menu-navbar-nav{
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+@media (max-width:767px){
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .main-btn{
+        font-size: 13px;
+    }
+}
